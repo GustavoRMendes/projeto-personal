@@ -3,7 +3,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
 }
 
 li{
@@ -11,7 +11,7 @@ li{
 }
 .menu {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 a {
