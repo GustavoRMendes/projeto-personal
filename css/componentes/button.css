@@ -8,3 +8,7 @@
   font-family: var(--font-titulo);
   font-weight: 500;
 }
+
+.btn-planos:hover {
+  background-color: var(--cor-destaque);
+}
