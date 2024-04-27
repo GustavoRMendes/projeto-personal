@@ -1,2 +1,4 @@
 /* Global */
-@import url('./global.css');
+@import url('./globals/global.css');
+/* Header */
+@import url('./header/header.css');
