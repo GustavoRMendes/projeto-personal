@@ -1,0 +1,10 @@
+.btn-planos {
+  background-color: var(--cor-destaque-secundaria);
+  padding: 8px 12px;
+  color: var(--cor-secundaria);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-titulo);
+  font-weight: 500;
+}
