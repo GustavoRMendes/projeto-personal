@@ -12,3 +12,9 @@ li{
   display: flex;
   gap: 20px;
 }
+
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: var(--cor-secundaria);
+}
