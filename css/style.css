@@ -2,3 +2,5 @@
 @import url('./globals/global.css');
 /* Header */
 @import url('./header/header.css');
+/* Colors and Fonts */
+@import url('./colors/colors.css');
