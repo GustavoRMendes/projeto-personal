@@ -6,3 +6,5 @@
 @import url('./colors/colors.css');
 /* Botões */
 @import url('./componentes/button.css');
+/* Introdução */
+@import url('./introducao/introducao.css');

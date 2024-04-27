@@ -3,24 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: var(--cor-primaria);
-}
 img {
   max-width: 100%;
 }
-h1 {
+h1,
+h2 {
   font-family: var(--font-titulo);
 }
-p,.resultados,.menu {
+h3,
+h4,
+p,
+.resultados,
+.menu {
   font-family: var(--font-texto);
-}
-
-.conteudo-home {
-  padding: 100px 0 0 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  place-items: start;
-  color: var(--cor-secundaria);
 }
