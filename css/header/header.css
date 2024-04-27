@@ -1,5 +1,6 @@
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
@@ -10,11 +11,10 @@ li{
 }
 .menu {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 a {
-  padding: 20px;
   text-decoration: none;
   color: var(--cor-secundaria);
 }
