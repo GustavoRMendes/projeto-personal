@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: var(--cor-primaria);
+  background: var(--cor-c12);
 }
 .header {
   display: flex;

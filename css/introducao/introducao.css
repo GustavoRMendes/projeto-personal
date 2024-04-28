@@ -1,23 +1,20 @@
 .introducao {
-  padding: 60px 0 120px 60px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding: 100px 0 160px 60px;
+  color: var(--cor-secundaria);
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   place-items: start;
-  color: var(--cor-secundaria);
 }
 .introducao-bg {
-  background-color: var(--cor-primaria);
+  background: url('../../img/gym.jpg') no-repeat;
+  background-size: cover;
+  background-position:center; 
 }
-
 .introducao h1 {
   font-size: 2.5rem;
 }
 .introducao p {
   font-size: 1rem;
-  grid-column: 1;
   color: var(--cor-c6);
-}
-.introducao button {
-  grid-column: 1;
 }
