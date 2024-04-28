@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 100px 40px;
+  
 }
 
 .conteudo-sobre {
@@ -22,9 +23,12 @@
   content: "";
   width: 40px;
   height: 4px;
-  background:linear-gradient(to right,#2E41E8,#2669EC) ;
-  display:block;
+  background: linear-gradient(to right, #2e41e8, #2669ec);
+  display: block;
 }
 .sobre .texto {
-  color:var(--cor-c9);
+  color: #8a8a8a;
+}
+.sobre .sobre-mim {
+  color: #8a8a8a;
 }
