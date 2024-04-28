@@ -1,4 +1,4 @@
-.btn-planos {
+.btn {
   background-color: var(--cor-destaque-secundaria);
   padding: 8px 12px;
   color: var(--cor-secundaria);
@@ -9,6 +9,6 @@
   font-weight: 500;
 }
 
-.btn-planos:hover {
+.btn:hover {
   background-color: var(--cor-destaque);
 }

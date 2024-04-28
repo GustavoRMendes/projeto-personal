@@ -1,0 +1,30 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 40px;
+}
+
+.conteudo-sobre {
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+  gap: 30px;
+}
+
+.sobre img {
+  border-radius: 2px;
+}
+
+.gustavo {
+  font-size: 2rem;
+}
+.gustavo::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background:linear-gradient(to right,#2E41E8,#2669EC) ;
+  display:block;
+}
+.sobre .texto {
+  color:var(--cor-c9);
+}
