@@ -1,0 +1,21 @@
+.main-bg {
+  background-color: var(--cor-c5);
+}
+
+.main .ajuda,
+.main .legenda {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.flex-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 0;
+}
+
+.flex-img img {
+  border-radius: 2px;
+}
