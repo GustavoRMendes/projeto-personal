@@ -4,7 +4,7 @@
 
 .planos-introducao {
   text-align: center;
-  padding: 80px 0;
+  padding: 60px 0 40px 0;
 }
 .planos-introducao p {
   margin-top: 20px;
@@ -12,6 +12,7 @@
 }
 .planos-introducao h2 {
   color: var(--cor-secundaria);
+  font-size: 3rem;
 }
 
 .planos-cards {
@@ -46,6 +47,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.anual-preco h1,
+.mensal-preco h1 {
+  font-size: 1.825rem;
 }
 .anual-preco span {
   color: var(--cor-c7);
