@@ -1,0 +1,36 @@
+.footer-bg {
+  background-color: var(--cor-secundaria-clara);
+}
+.flex-footer {
+  display: flex;
+  gap: 100px;
+  padding: 60px 0 60px 100px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.contato-links,
+.endereco {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.contato-links a {
+  color: var(--cor-c9);
+  text-decoration: none;
+}
+
+.direitos {
+  padding: 0 0 60px 100px;
+}
+
+.endereco {
+  color: var(--cor-c9);
+}
+
+.redes {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
