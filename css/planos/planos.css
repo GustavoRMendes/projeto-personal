@@ -47,6 +47,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.anual-preco span {
+  color: var(--cor-c7);
+  font-size: 1.225rem;
+}
+.mensal-preco span {
+  color: var(--cor-primaria);
+  font-size: 1.225rem;
+}
 
 .lista-anual,
 .lista-mensal {
