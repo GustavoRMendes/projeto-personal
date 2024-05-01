@@ -1,0 +1,59 @@
+.planos-bg {
+  background-color: var(--cor-primaria);
+}
+
+.planos-introducao {
+  text-align: center;
+  padding: 80px 0;
+}
+.planos-introducao p {
+  margin-top: 20px;
+  color: var(--cor-c9);
+}
+.planos-introducao h2 {
+  color: var(--cor-secundaria);
+}
+
+.planos-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 0 0 80px 0;
+}
+.anual {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
+  padding: 40px;
+  border-radius: 2px;
+}
+.anual button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+}
+.anual button:hover {
+  background-color: var(--cor-terciaria);
+}
+.mensal {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
+  padding: 40px;
+  border-radius: 2px;
+}
+
+.anual-preco,
+.mensal-preco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-anual,
+.lista-mensal {
+  margin: 30px 0;
+}
+
+ul > li {
+  margin-top: 20px;
+  color: var(--cor-c7);
+}
