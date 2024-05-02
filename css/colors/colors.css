@@ -5,13 +5,19 @@
   --cor-terciaria: #C7C6C6;
   --cor-destaque: #051048;
   --cor-destaque-secundaria: #112172;
+  --cor-c1: #f7f7f7;
+  --cor-c2: #ededed;
+  --cor-c3: #dedede;
   --cor-c5:#C7C6C6;
   --cor-c6: #cccccc;
   --cor-c7:#ABABAB;
+  --cor-c8: #2e2e2e;
   --cor-c9: #585858;
-  --cor-preto: #020202;
+  --cor-c10: #2e2e2e;
+  --cor-c11: #121212;
   --cor-c12: #000000;
-
+  --cor-preto: #020202;
+  
   --font-titulo: 'Poppins';
   --font-texto: 'Roboto'
 }
