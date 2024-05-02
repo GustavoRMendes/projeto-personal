@@ -19,9 +19,12 @@ h4 {
 .contato-links a {
   color: var(--cor-c9);
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
+.contato-links > a:hover {
+  color: var(--cor-primaria);
+  transition: 0.3s;
+}
 .direitos {
   padding: 0 0 60px 100px;
 }
