@@ -19,6 +19,7 @@ h4 {
 .contato-links a {
   color: var(--cor-c9);
   text-decoration: none;
+  font-family: 'Roboto';
 }
 
 .direitos {
