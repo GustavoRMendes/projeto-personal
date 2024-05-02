@@ -35,3 +35,18 @@ li{
     display: inline-block;
   }
 }
+
+@media(max-width: 340px) {
+  .header img{
+    width: 150px;
+  }
+  .header a {
+    font-size: 12px;
+  }
+  .header {
+    padding: 20px 40px;
+  }
+  .menu {
+    gap: 20px;
+  }
+}
