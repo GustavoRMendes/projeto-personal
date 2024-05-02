@@ -21,3 +21,17 @@ li{
   text-decoration: none;
   color: var(--cor-secundaria);
 }
+.menu a:hover {
+  color: var(--cor-c5);
+  transition: .2s;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+  .menu a {
+    margin-top: 20px;
+    display: inline-block;
+  }
+}
