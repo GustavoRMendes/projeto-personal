@@ -2,8 +2,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 100px 60px;
+  gap: 40px;
 }
-
+.btn-img {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 .conteudo-sobre {
   display: flex;
   flex-direction: column;
@@ -29,4 +34,51 @@
 }
 .sobre .sobre-mim {
   color: #8a8a8a;
+}
+
+@media (max-width: 970px) {
+  .sobre {
+    padding: 80px 40px;
+  }
+  .gustavo {
+    font-size: 1.825rem;
+  }
+  .sobre-mim  {
+    font-size: 12px;
+  }
+  .sobre .texto {
+    color: #8a8a8a;
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 890px) {
+  .sobre {
+    padding: 80px 40px;
+  }
+  .gustavo {
+    font-size: 1.6rem;
+  }
+  .gustavo::after {
+    width: 32px;
+  }
+  .sobre-mim  {
+    font-size: 10px;
+  }
+  .sobre .texto {
+    color: #8a8a8a;
+    font-size: 12px;
+  }
+  .btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  .whatsapp {
+    width: 30px;
+  }
+  .btn-img {
+    gap: 20px;
+  }
 }
