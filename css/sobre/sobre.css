@@ -1,14 +1,12 @@
 .sobre {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 100px 40px;
-  gap: 40px;
+  padding: 100px 60px;
 }
 
 .conteudo-sobre {
   display: flex;
   flex-direction: column;
-  place-items: start;
   gap: 30px;
 }
 
