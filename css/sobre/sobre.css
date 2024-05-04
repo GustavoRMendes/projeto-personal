@@ -6,7 +6,7 @@
 }
 .btn-img {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
 }
 .conteudo-sobre {
@@ -43,7 +43,7 @@
   .gustavo {
     font-size: 1.825rem;
   }
-  .sobre-mim  {
+  .sobre-mim {
     font-size: 12px;
   }
   .sobre .texto {
@@ -62,7 +62,7 @@
   .gustavo::after {
     width: 32px;
   }
-  .sobre-mim  {
+  .sobre-mim {
     font-size: 10px;
   }
   .sobre .texto {
@@ -83,26 +83,15 @@
 
 @media (max-width: 730px) {
   .sobre {
-    padding: 80px 40px;
-  }
-  .gustavo {
-    font-size: 1.4rem;
-  }
-  .gustavo::after {
-    width: 30px;
-  }
-  .sobre-mim  {
-    font-size: 8px;
-  }
-  .sobre .texto {
-    color: #8a8a8a;
-    font-size: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    place-items: center;
   }
   .conteudo-sobre {
     gap: 20px;
   }
-  .btn {
-    padding: 5px 10px;
-    font-size: 10px;
+  .imagem-sobre img {
+    width: 300px;
   }
 }
