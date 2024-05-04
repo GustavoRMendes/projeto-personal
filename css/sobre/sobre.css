@@ -52,8 +52,6 @@
   }
 }
 
-
-
 @media (max-width: 890px) {
   .sobre {
     padding: 80px 40px;
@@ -80,5 +78,31 @@
   }
   .btn-img {
     gap: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .sobre {
+    padding: 80px 40px;
+  }
+  .gustavo {
+    font-size: 1.4rem;
+  }
+  .gustavo::after {
+    width: 30px;
+  }
+  .sobre-mim  {
+    font-size: 8px;
+  }
+  .sobre .texto {
+    color: #8a8a8a;
+    font-size: 10px;
+  }
+  .conteudo-sobre {
+    gap: 20px;
+  }
+  .btn {
+    padding: 5px 10px;
+    font-size: 10px;
   }
 }
