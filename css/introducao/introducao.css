@@ -7,9 +7,9 @@
   place-items: start;
 }
 .introducao-bg {
-  background: url('../../img/gym.jpg') no-repeat;
+  background: url("../../img/gym.jpg") no-repeat;
   background-size: cover;
-  background-position:center; 
+  background-position: center;
 }
 .introducao h1 {
   font-size: 2.5rem;
@@ -17,54 +17,4 @@
 .introducao p {
   font-size: 1rem;
   color: var(--cor-c6);
-}
-
-@media (max-width: 800px) {
-  .introducao h1 {
-    font-size: 2rem;
-  }
-  .introducao p {
-    font-size: .8rem;
-    color: var(--cor-c6);
-  }
-  .btn {
-    padding: 8px 16px;
-  }
-}
-
-@media (max-width: 700px) {
-  .introducao {
-    padding: 50px 0 140px 0px;
-    align-items: center;
-  }
-  .introducao-bg {
-    background: var(--cor-c12);
-  }
-}
-
-@media (max-width: 400px) {
-  .introducao h1 {
-    font-size: 1.5rem;
-  }
-  .introducao p {
-    font-size: .6rem;
-    color: var(--cor-c6);
-  }
-  .btn {
-    padding: 4px 8px;
-    font-size: 12px;
-  }
-}
-@media (max-width: 240px) {
-  .introducao h1 {
-    font-size: 1.2rem;
-  }
-  .introducao p {
-    font-size: .5rem;
-    color: var(--cor-c6);
-  }
-  .btn {
-    padding: 4px 6px;
-    font-size: 8px;
-  }
 }
